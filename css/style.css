@@ -2,5 +2,26 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: rgba(229, 186, 186, 0.911);
+    background-color: rgba(241, 215, 215, 0.911);
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(59, 72, 95);
+}
+
+.navbar-light .navbar-brand {
+    color: rgb(122 75 75 / 92%);
+}
+.navbar-light .navbar-brand:hover {
+    color: rgba(70, 36, 36, 0.92);
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgb(122 40 40 / 92%);
+    font-size: 20px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(189 111 111 / 66%);
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(121, 55, 55);
 }
