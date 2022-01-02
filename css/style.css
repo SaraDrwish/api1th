@@ -8,20 +8,50 @@
     color: rgb(59, 72, 95);
 }
 
+ 
+.blue{
+    background-color: #5a7590;
+    z-index:1000;
+}
+ 
+ul li{
+  background-color: #5a7590;
+  font-weight: bold;
+  margin-left: 2%;
+ }
+
+ul li a{
+    margin-left: 2%;
+    border: rgb(80, 96, 109) 2px solid;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    background-color: rgba(224, 202, 202, 0.137);
+}
+
 .navbar-light .navbar-brand {
-    color: rgb(122 75 75 / 92%);
+    color: rgb(122, 75, 75);
 }
 .navbar-light .navbar-brand:hover {
     color: rgba(70, 36, 36, 0.92);
 }
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
-    color: rgb(122 40 40 / 92%);
+    color: rgba(122, 40, 40, 0.986);
     font-size: 20px;
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: rgb(189 111 111 / 66%);
+    color: rgba(206, 136, 136, 0.815);
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
 }
 .navbar-light .navbar-nav .nav-link:hover {
-    color: rgb(121, 55, 55);
+    color: rgb(22, 44, 53);
+    font-size: 22px;
+    font-weight: bold;
 }

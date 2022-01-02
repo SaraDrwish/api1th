@@ -1,4 +1,5 @@
 //https://newsapi.org/
+//https://newsapi.org/docs/endpoints/top-headlines
 
 
 let dataList = [];
@@ -39,7 +40,7 @@ function showData(){
     for(let i = 0 ; i < dataList.length; i++){
 
           temp += `
-        <div class="col-md-3 mb-3">
+        <div class="col-md-3 mb-2">
         <div class="card">
             <img src=" ${ dataList[i].urlToImage }" class="card-img-top" alt="...">
             <div class="card-body">
